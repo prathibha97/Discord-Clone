@@ -47,7 +47,7 @@ const ServerChannel: FC<ServerChannelProps> = ({ channel, server, role }) => {
           <ActionTooltip label='Edit'>
             <Edit className='hidden group-hover:block w-4 h-4 text-zinc-500 hover:text-zinc-600 dark:text-zinc-400 dark:hover:text-zinc-300 transition' />
           </ActionTooltip>
-          <ActionTooltip label='Edit'>
+          <ActionTooltip label='Delete'>
             <Trash className='hidden group-hover:block w-4 h-4 text-zinc-500 hover:text-zinc-600 dark:text-zinc-400 dark:hover:text-zinc-300 transition' />
           </ActionTooltip>
         </div>
